@@ -1,7 +1,9 @@
 import os
 import nltk
 
+
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 nltk.download('wordnet')
 from flask import Flask, render_template, request
